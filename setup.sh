@@ -16,7 +16,7 @@ then
   echo 'source ~/.bashrc' >> ~/.bash_profile
 fi
 
-# Source all the stuff in bash_setup from .bashrc if it hasn't been done
+# Source all the stuff in env_setup from .bashrc if it hasn't been done
 if ! grep -q 'source ~/env_setup/.all.bash' ~/.bashrc
 then
   echo 'source ~/env_setup/.all.bash' >> ~/.bashrc
