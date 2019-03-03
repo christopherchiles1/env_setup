@@ -1,3 +1,5 @@
+source ~/env_setup/.git.bash
+
 # Bash Commands
 alias reload='source ~/.bash_profile'
 alias path='echo -e ${PATH//:/\\n}'
@@ -22,7 +24,7 @@ alias aenv='a ~/env_setup'
 # Git Commands
 alias gs='git status'
 alias ga='git add'
-alias ga='git branch'
+alias gb='git branch'
 alias gd='git diff'
 alias gl='git log'
 alias gcm='git commit -m'
