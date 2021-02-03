@@ -1,6 +1,7 @@
 source ~/env_setup/.git.bash
 
 # Bash Commands
+alias brc='a ~/.bashrc'
 alias reload='source ~/.bash_profile'
 alias path='echo -e ${PATH//:/\\n}'
 
@@ -17,6 +18,7 @@ alias cdenv='cd ~/env_setup'
 
 # Atom Commands
 alias a='atom'
+alias a.='a .'
 
 alias anote='a ~/Desktop/notes'
 alias aenv='a ~/env_setup'
@@ -29,6 +31,10 @@ alias gd='git diff'
 alias gl='git log'
 alias gcm='git commit -m'
 alias gch='git checkout'
+alias gdc='git diff --cached'
+alias gcam='git commit --amend'
+alias gcp='git cherry-pick'
+alias gt='git log --oneline --decorate --all --graph'
 
 # Ruby Commands
 alias be='bundle exec'

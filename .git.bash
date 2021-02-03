@@ -1,8 +1,8 @@
 # set up git completion
 # source: https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
-if [ -f ~/.git-completion.bash ]; then
-  source ~/.git-completion.bash
-  __git_complete gc _git_checkout
+if [ -f ~/env_setup/.git-completion.bash ]; then
+  source ~/env_setup/.git-completion.bash
+  __git_complete gch _git_checkout
   __git_complete gb _git_branch
   __git_complete gd _git_diff
 fi
